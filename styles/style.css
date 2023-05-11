@@ -12,13 +12,8 @@
 .header .content .footer {/*сброс отступов на уровне блоков*/
   margin: 0;
   padding: 0;
+
 }
-
-
-
-
-
-
 
 .header {
   position: relative;
@@ -28,7 +23,6 @@
   max-height: 756px;
   background-color: #f2f2f2;
   z-index: 0;
-  border: 0.1px solid #ff3700;
 }
 
 .logo_place_header {
@@ -38,7 +32,6 @@
   top: 30px;
   left: 64px;
   z-index: 3;
-  border: 0.1px solid #ff3700;
 }
 
 .header__title {
@@ -52,7 +45,6 @@
   font-size: 102px;
   line-height: 96px;
   font-weight: 600;
-  border: 0.1px solid #ff3700;
 }
 
 .header__subtitle{
@@ -65,7 +57,6 @@
   line-height: 25px;
   font-weight: normal;
   z-index: 3;
-  border: 0.1px solid #ff3700;
 }
 
 .header__link {
@@ -80,7 +71,6 @@
   width: 765px;
   height: 608px;
   object-fit: cover;
-  border: 0.1px solid #ff3700;
 }
 
 .header__square-pic {
@@ -91,7 +81,6 @@
   width: 568px;
   background-color: #2f80ed;
   z-index: 1;
-  border: 0.1px solid #ff3700;
 }
 
 
@@ -103,7 +92,6 @@
 .description {
   padding-top: 100px;
   padding-bottom: 100px;
-  border: 0.1px solid #ff3700;
 }
 
 .list {
@@ -117,7 +105,6 @@
   justify-self: center;
   justify-content: space-between;
   margin: 0 10% 0 10%;
-  border: 0.1px solid #ff3700;
 }
 
 .two-columns__brief {
@@ -128,7 +115,6 @@
   font-weight: normal;
   padding: 0;
   margin: 0;
-  border: 0.1px solid #ff3700;
 }
 
 .two-columns__main-text {
@@ -136,7 +122,6 @@
   min-width: 784px;
   padding: 0;
   margin: 0;
-  border: 0.1px solid #ff3700;
 }
 
 .two-columns__paragraph {
@@ -144,7 +129,6 @@
   line-height: 34px;
   font-weight: normal;
   margin-bottom: 30px;
-  border: 0.1px solid #ff3700;
 }
 
 .two-columns__paragraph_bottom {
@@ -168,7 +152,6 @@
 
 .digits {
   padding-bottom: 100px;
-  border: 0.1px solid #ff3700;
   }
 
 .section-title {
@@ -180,7 +163,6 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  border: 0.1px solid #ff3700;
 }
 
 .section-subtitle {
@@ -193,7 +175,6 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0;
-  border: 0.1px solid #ff3700;
 }
 
 .table__cell {
@@ -202,7 +183,6 @@
   justify-content: center;
   width: 250px;
   margin-top: 60px;
-  border: 0.1px solid #ff3700;
 }
 
 .table__heading {
@@ -236,7 +216,6 @@
   margin: 0 auto 0 auto;
   padding: 0;
   flex-wrap: wrap;
-  border: 0.1px solid #ff3700;
 }
 
 
@@ -249,11 +228,13 @@
 
 .feynman {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   height: 100vh;
   height: 890px;
   background-color: #f2f2f2;
   z-index: 0;
-  border: 0.1px solid #ff3700;
 }
 
 .freyman-img {
@@ -264,7 +245,6 @@
   width: 867px;
   height: 637px;
   object-fit: cover;
-  border: 0.1px solid #ff3700;
 }
 
 .freyman__title {
@@ -275,7 +255,6 @@
   margin: 100px auto 0 auto;
   width: 648px;
   z-index: 3;
-  border: 0.1px solid #ff3700;
   text-align: center;
 }
 
@@ -288,7 +267,6 @@
   width: 450px;
   z-index: 3;
   text-align: center;
-  border: 0.1px solid #ff3700;
 }
 
 .freyman__link {
@@ -301,7 +279,6 @@
   font-weight: normal;
   text-decoration: none;
   z-index: 3;
-  border: 0.1px solid #ff3700;
 }
 
 
@@ -319,7 +296,6 @@
   padding-bottom: 90px;
   background-color: #1f1f1f;
   z-index: 0;
-  border: 0.1px solid #ff3700;
 }
 
 .kaufman__triangle {
@@ -330,7 +306,6 @@
   width: 877px;
   height: 877px;
   object-fit: cover;
-  border: 0.1px solid #ff3700;
 }
 
 .section-title_theme_dark {
@@ -359,20 +334,17 @@
 
 
 .footer {
+  display: flex;
   background-color: #1f1f1f;
   z-index: 0;
   min-height: 350px;
-  border: 0.1px solid #ff3700;
 }
 
 .footer_columns {
   display: flex;
-  flex-basis: 711px;
-  align-items: stretch;
   justify-content: space-between;
   width: 90%;
   margin: 60px auto 40px auto;
-  border: 0.1px solid #ff3700;
 }
 
 .footer__column_content_copyright {
@@ -380,7 +352,6 @@
   flex-direction: column;
   justify-content: space-between;
   width: 50%;
-  border: 0.1px solid #ff3700;
 }
 
 .footer__author {
@@ -389,13 +360,11 @@
   font-weight: normal;
   color: #ffffff;
   margin: 18px 0 18px 0;
-  border: 0.1px solid #ff3700;
 }
 
 .footer__column_content_info {
   display: flex;
   flex-direction: column;
-  border: 0.1px solid #ff3700;
 }
 
 .footer__column-heading {
@@ -418,7 +387,6 @@
 .footer__column_content_social {
   display: flex;
   flex-direction: column;
-  border: 0.1px solid #ff3700;
 }
 
 .footer__column-link {
@@ -440,5 +408,4 @@
   display: flex;
   width: 228px;
   height: 32px;
-  border: 0.1px solid #ff3700;
 }
